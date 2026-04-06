@@ -1,0 +1,19 @@
+/* units in css-- pixels, em, rem, % */
+
+/* pixels-- absolute unit, fixed size, not responsive */
+
+/* %-- relative unit, based on parent element's size */
+
+body{
+    background-color: aliceblue;
+}
+main{
+
+    border: 1px solid black;
+    /* width: 100%; */
+     width: 50vw;  /*view width - 100% of the view port width*/
+}
+section{
+    border: 2px dashed red;
+    width: 50%;
+}

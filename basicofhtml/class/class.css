@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aqua;
+}
+/* if i want to give same properties to different elements then i use class method */
+/*class name should be same for all element in which we wnat to give same properties */
+.style{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    
+
+}

@@ -1,0 +1,37 @@
+
+.container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid #03090ad3;
+    background-color: turquoise;
+    margin-left: 200px;
+    
+}
+.position{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.relative{
+    position: relative;
+    background-color: chartreuse;
+    left: 100px;
+
+
+}
+.absolute{
+    background-color: rgb(32, 121, 215);
+    position:absolute;
+    left: 0px;
+    top:0px;
+    
+
+}
+.fixed{
+    background-color: lightgray;
+    position:fixed;
+}
+.spacer{
+    width: 300vw;
+    height: 300vh;
+}

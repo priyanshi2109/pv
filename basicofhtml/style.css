@@ -8,10 +8,28 @@ html,body{
 }
 body{
     background-color: rgb(224, 193, 193);
+    display :flex;
+    align-items: center;
+    justify-content: center;
 }
 div{
-    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content :center;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
 
-    height:50%;
-    background-color: aqua;
+}
+
+#box1{
+   
+    background-color: rgb(160, 82, 82);
+}
+
+#box2{
+    
+    background-color: rgb(12, 210, 48);
 }
