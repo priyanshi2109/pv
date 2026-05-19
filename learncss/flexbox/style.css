@@ -1,0 +1,38 @@
+.container{
+    border: 1px solid red;
+    display: flex; /*display flex is defultly row direction for change its direction we use flex-direction: column;*/
+    height: 400px;
+     /*flex-direction: row-reverse; it will reverse the direction of row */
+      /* flex: wrap; it will wrap the items to next line if they exceed the container width */
+     /* flex-wrap: nowrap; it will not wrap the items to next line if they exceed the container width */
+     /* flex-wrap: wrap-reverse; it will wrap the items to next line in reverse order if they exceed the container width */
+    /* flex-direction: row; */
+    flex-flow: wrap row;/* it will work for the flex direction and flex wrap together*/
+    gap: 10px; /* it will add gap between the items */
+    /* justify-content: space-around; */
+     /* it will space aoround equally between the items */
+     /* justify-content: space-between; */
+        /* it will space between the items and first and last item will be at the start and end of the container */
+    justify-content: center; /* it will center the items horizontly */
+    align-items: center;
+    /* it will center the items automatically */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+
+
+}
+
+.box{
+        border: 1px solid rgb(36, 187, 214);
+        /* margin: 10px; */
+        width: 40px;
+}
+
+/* order property is used to change the order of child elements in container */
+#box-1{
+    order: 1;
+}
+
+#box-3{
+    order: 2;
+}
